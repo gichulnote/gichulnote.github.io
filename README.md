@@ -1,1 +1,1 @@
-# gichulnote.github.io
+Deployed from gichulnote/gichulnote

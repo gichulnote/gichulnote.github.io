@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01T00:00:00Z",
+  "presets": [
+    { "id": "jaegyeong", "name": "재경관리사", "path": "jaegyeong" }
+  ]
+}
