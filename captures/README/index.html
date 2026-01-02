@@ -1,0 +1,119 @@
+<!DOCTYPE html><meta charset="utf-8"><h1 id="캡쳐용-페이지-가이드">캡쳐용 페이지 가이드</h1>
+<p>OG 이미지와 스플래시 화면 생성을 위한 캡쳐용 페이지입니다.</p>
+<h2 id="페이지-목록">페이지 목록</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>파일</th><th>용도</th><th>크기</th><th>출력</th></tr></thead><tbody><tr><td><code>og-image.astro</code></td><td>웹사이트 SNS 공유용</td><td>1200x630</td><td><code>public/og-image.png</code></td></tr><tr><td><code>splash.astro</code></td><td>앱 스플래시 화면</td><td>1080x1920</td><td><code>public/splash.png</code></td></tr></tbody></table>
+<h2 id="캡쳐-방법">캡쳐 방법</h2>
+<h3 id="1-빌드-후-preview-서버-실행">1. 빌드 후 Preview 서버 실행</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#79B8FF">cd</span><span style="color:#9ECBFF"> website</span></span>
+<span class="line"><span style="color:#B392F0">pnpm</span><span style="color:#9ECBFF"> build</span><span style="color:#E1E4E8"> &#x26;&#x26; </span><span style="color:#B392F0">pnpm</span><span style="color:#9ECBFF"> preview</span></span></code></pre>
+<h3 id="2-playwright로-캡쳐">2. Playwright로 캡쳐</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#6A737D"># OG Image (1200x630)</span></span>
+<span class="line"><span style="color:#B392F0">npx</span><span style="color:#9ECBFF"> playwright</span><span style="color:#9ECBFF"> screenshot</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF">  --viewport-size=</span><span style="color:#9ECBFF">"1200,630"</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF">  --full-page</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF">  "http://localhost:4321/captures/og-image/"</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF">  "public/og-image.png"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D"># Splash (1080x1920)</span></span>
+<span class="line"><span style="color:#B392F0">npx</span><span style="color:#9ECBFF"> playwright</span><span style="color:#9ECBFF"> screenshot</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF">  --viewport-size=</span><span style="color:#9ECBFF">"1080,1920"</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#79B8FF">  --full-page</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF">  "http://localhost:4321/captures/splash/"</span><span style="color:#79B8FF"> \</span></span>
+<span class="line"><span style="color:#9ECBFF">  "public/splash.png"</span></span></code></pre>
+<blockquote>
+<p><strong>주의</strong>: <code>pnpm dev</code>가 아닌 <code>pnpm preview</code>에서 캡쳐해야 Astro 디버그 툴바가 포함되지 않습니다.</p>
+</blockquote>
+<h2 id="로고-변경-방법">로고 변경 방법</h2>
+<p>현재 로고는 CSS로 만든 “G” 텍스트입니다.</p>
+<h3 id="현재-구조">현재 구조</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#6A737D">&#x3C;!-- og-image.astro, splash.astro 공통 --></span></span>
+<span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">div</span><span style="color:#B392F0"> class</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"logo"</span><span style="color:#E1E4E8">>G&#x3C;/</span><span style="color:#85E89D">div</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">div</span><span style="color:#B392F0"> class</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"app-logo"</span><span style="color:#E1E4E8">>G&#x3C;/</span><span style="color:#85E89D">div</span><span style="color:#E1E4E8">>  </span><span style="color:#6A737D">&#x3C;!-- 목업 내부 --></span></span></code></pre>
+<h3 id="이미지-로고로-변경-시">이미지 로고로 변경 시</h3>
+<ol>
+<li>
+<p>로고 이미지를 <code>public/logo.png</code>에 저장</p>
+</li>
+<li>
+<p>HTML 변경:</p>
+</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#6A737D">&#x3C;!-- 메인 로고 --></span></span>
+<span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span><span style="color:#B392F0"> src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/logo.png"</span><span style="color:#B392F0"> class</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"logo"</span><span style="color:#B392F0"> alt</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"기출노트"</span><span style="color:#E1E4E8"> /></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">&#x3C;!-- 목업 내부 로고 (작은 사이즈) --></span></span>
+<span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span><span style="color:#B392F0"> src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/logo.png"</span><span style="color:#B392F0"> class</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"app-logo"</span><span style="color:#B392F0"> alt</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"G"</span><span style="color:#E1E4E8"> /></span></span></code></pre>
+<ol start="3">
+<li>CSS 수정 (필요시):</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="css"><code><span class="line"><span style="color:#B392F0">.logo</span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#79B8FF">  width</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">64</span><span style="color:#F97583">px</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#79B8FF">  height</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">64</span><span style="color:#F97583">px</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#6A737D">  /* background 관련 속성 제거 */</span></span>
+<span class="line"><span style="color:#79B8FF">  object-fit</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">contain</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0">.app-logo</span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#79B8FF">  width</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">28</span><span style="color:#F97583">px</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* og-image */</span><span style="color:#E1E4E8"> 또는 36</span><span style="color:#79B8FF">px</span><span style="color:#6A737D"> /* splash */</span></span>
+<span class="line"><span style="color:#79B8FF">  height</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">28</span><span style="color:#F97583">px</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#79B8FF">  object-fit</span><span style="color:#E1E4E8">: </span><span style="color:#79B8FF">contain</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
+<h3 id="수정-필요-파일">수정 필요 파일</h3>
+<ul>
+<li><code>src/pages/captures/og-image.astro</code> - 2곳 (메인 로고 없음, 목업 내부만)</li>
+<li><code>src/pages/captures/splash.astro</code> - 2곳 (메인 로고, 목업 내부)</li>
+</ul>
+<h2 id="디자인-요소">디자인 요소</h2>
+<h3 id="컬러-팔레트-sophisticated-dusk">컬러 팔레트 (Sophisticated Dusk)</h3>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="css"><code><span class="line"><span style="color:#E1E4E8">--dusk-950: </span><span style="color:#FDAEB7;font-style:italic">#0c1222</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 가장 어두운 배경 */</span></span>
+<span class="line"><span style="color:#E1E4E8">--dusk-900: </span><span style="color:#FDAEB7;font-style:italic">#131c2e</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 기본 배경 */</span></span>
+<span class="line"><span style="color:#E1E4E8">--dusk-850: </span><span style="color:#FDAEB7;font-style:italic">#1a2540</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 섹션 배경 */</span></span>
+<span class="line"><span style="color:#E1E4E8">--dusk-800: </span><span style="color:#FDAEB7;font-style:italic">#1f2d47</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 카드 배경 */</span></span>
+<span class="line"><span style="color:#E1E4E8">--mint-500: </span><span style="color:#FDAEB7;font-style:italic">#14b8a6</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 액센트 */</span></span>
+<span class="line"><span style="color:#E1E4E8">--mint-400: </span><span style="color:#FDAEB7;font-style:italic">#2dd4bf</span><span style="color:#E1E4E8">;  </span><span style="color:#6A737D">/* 액센트 밝은 */</span></span></code></pre>
+<h3 id="폰트">폰트</h3>
+<ul>
+<li>Pretendard Variable (CDN)</li>
+</ul>
+<h2 id="변경-이력">변경 이력</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>날짜</th><th>변경 내용</th></tr></thead><tbody><tr><td>2026-01-02</td><td>스플래시 레이아웃 변경 (로고 상단 배치)</td></tr><tr><td>2026-01-02</td><td>초기 캡쳐 페이지 생성</td></tr></tbody></table>
