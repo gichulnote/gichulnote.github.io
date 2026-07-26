@@ -1,0 +1,252 @@
+{
+  "version": 2,
+  "updatedAt": "2026-05-18T12:00:00Z",
+
+  "tags": [
+    { "id": "private_cert", "name": "민간자격" },
+    { "id": "national_cert", "name": "국가자격" },
+    { "id": "civil_service", "name": "공무원" },
+    { "id": "accounting", "name": "회계" },
+    { "id": "tax", "name": "세무" },
+    { "id": "admission_exam", "name": "입학시험" },
+    { "id": "police", "name": "경찰" },
+    { "id": "real_estate", "name": "부동산" },
+    { "id": "labor", "name": "노무" }
+  ],
+
+  "exams": [
+    {
+      "id": "9급국가직",
+      "name": "9급 국가직 공무원",
+      "type": "separated",
+      "tags": ["civil_service"],
+      "organization": {
+        "name": "인사혁신처",
+        "url": "https://gongmuwon.gosi.kr"
+      },
+      "downloadable": true,
+      "subjects": [
+        { "id": "국어", "name": "국어", "category": "필수" },
+        { "id": "영어", "name": "영어", "category": "필수" },
+        { "id": "한국사", "name": "한국사", "category": "필수" }
+      ]
+    },
+    {
+      "id": "7급국가직",
+      "name": "7급 국가직 / 민경채 PSAT",
+      "type": "separated",
+      "tags": ["civil_service"],
+      "organization": {
+        "name": "인사혁신처",
+        "url": "https://gongmuwon.gosi.kr"
+      },
+      "downloadable": true,
+      "subjects": [
+        { "id": "언어논리", "name": "언어논리", "category": "필수" },
+        { "id": "자료해석", "name": "자료해석", "category": "필수" },
+        { "id": "상황판단", "name": "상황판단", "category": "필수" }
+      ]
+    },
+    {
+      "id": "재경관리사",
+      "name": "재경관리사",
+      "type": "integrated",
+      "tags": ["private_cert", "accounting"],
+      "organization": {
+        "name": "삼일회계법인",
+        "url": "https://www.samilexam.com"
+      },
+      "downloadable": false
+    },
+    {
+      "id": "회계관리1급",
+      "name": "회계관리1급",
+      "type": "integrated",
+      "tags": ["private_cert", "accounting"],
+      "organization": {
+        "name": "삼일회계법인",
+        "url": "https://www.samilexam.com"
+      },
+      "downloadable": false
+    },
+    {
+      "id": "회계관리2급",
+      "name": "회계관리2급",
+      "type": "integrated",
+      "tags": ["private_cert", "accounting"],
+      "organization": {
+        "name": "삼일회계법인",
+        "url": "https://www.samilexam.com"
+      },
+      "downloadable": false
+    },
+    {
+      "id": "경찰대학",
+      "name": "경찰대학 1차 시험",
+      "type": "separated",
+      "tags": ["admission_exam", "police"],
+      "organization": {
+        "name": "경찰대학",
+        "url": "https://police.ac.kr"
+      },
+      "downloadable": false,
+      "subjects": [
+        { "id": "국어", "name": "국어", "category": "필수", "downloadable": false },
+        { "id": "영어", "name": "영어", "category": "필수", "downloadable": true },
+        { "id": "수학", "name": "수학", "category": "필수", "downloadable": true }
+      ]
+    },
+    {
+      "id": "감정평가사",
+      "name": "감정평가사 1차",
+      "type": "separated",
+      "tags": ["national_cert", "real_estate"],
+      "organization": {
+        "name": "한국산업인력공단",
+        "url": "https://www.q-net.or.kr/site/value"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공누리 제1유형: 출처표시",
+        "source": "한국산업인력공단 Q-Net (감정평가사 국가자격시험, 2014년 자료부터)"
+      },
+      "subjects": [
+        { "id": "1교시", "name": "1교시 (민법·경제학·부동산학원론)", "category": "필수" },
+        { "id": "2교시", "name": "2교시 (감정평가관계법규·회계학)", "category": "필수" }
+      ]
+    },
+    {
+      "id": "한국사능력검정시험",
+      "name": "한국사능력검정시험",
+      "type": "separated",
+      "tags": ["national_cert"],
+      "organization": {
+        "name": "국사편찬위원회",
+        "url": "https://www.historyexam.go.kr"
+      },
+      "downloadable": true,
+      "subjects": [
+        { "id": "심화", "name": "심화 (1~3급)", "category": "선택" },
+        { "id": "기본", "name": "기본 (4~6급)", "category": "선택" }
+      ]
+    },
+    {
+      "id": "공인노무사_2024이후",
+      "name": "공인노무사 1차 (2024년 이후)",
+      "type": "separated",
+      "tags": ["national_cert", "labor"],
+      "organization": {
+        "name": "한국산업인력공단",
+        "url": "https://www.q-net.or.kr/site/nomu"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공누리 제1유형: 출처표시",
+        "source": "한국산업인력공단 Q-Net (공인노무사 국가자격시험)"
+      },
+      "subjects": [
+        { "id": "1교시", "name": "1교시 (노동법1·노동법2)", "category": "필수" },
+        { "id": "2교시_경제학", "name": "2교시 - 경제학 선택 (민법·사회보험법·경제학원론)", "category": "선택" },
+        { "id": "2교시_경영학", "name": "2교시 - 경영학 선택 (민법·사회보험법·경영학개론)", "category": "선택" }
+      ]
+    },
+    {
+      "id": "공인중개사",
+      "name": "공인중개사 1차",
+      "type": "separated",
+      "tags": ["national_cert", "real_estate"],
+      "organization": {
+        "name": "한국산업인력공단",
+        "url": "https://www.q-net.or.kr/site/junggae"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공누리 제1유형: 출처표시",
+        "source": "한국산업인력공단 Q-Net (공인중개사 국가전문자격시험)"
+      },
+      "subjects": [
+        { "id": "1차", "name": "1차 (부동산학개론·민법 및 민사특별법)", "category": "필수" }
+      ]
+    },
+    {
+      "id": "공인노무사_2023이전",
+      "name": "공인노무사 1차 (2023년 이전)",
+      "type": "separated",
+      "tags": ["national_cert", "labor"],
+      "organization": {
+        "name": "한국산업인력공단",
+        "url": "https://www.q-net.or.kr/site/nomu"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공누리 제1유형: 출처표시",
+        "source": "한국산업인력공단 Q-Net (공인노무사 국가자격시험)"
+      },
+      "subjects": [
+        { "id": "경제학", "name": "경제학 선택 (5과목 125문항)", "category": "선택" },
+        { "id": "경영학", "name": "경영학 선택 (5과목 125문항)", "category": "선택" }
+      ]
+    },
+    {
+      "id": "세무사",
+      "name": "세무사 1차",
+      "type": "separated",
+      "tags": ["national_cert", "tax", "accounting"],
+      "organization": {
+        "name": "한국산업인력공단",
+        "url": "https://www.q-net.or.kr/site/semu"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공누리 제1유형: 출처표시 (2018년 이후 자료)",
+        "source": "한국산업인력공단 Q-Net (세무사 국가전문자격시험)"
+      },
+      "subjects": [
+        { "id": "1교시", "name": "1교시 (재정학·세법학개론)", "category": "필수" },
+        { "id": "2교시_민법", "name": "2교시 - 민법 선택 (회계학개론·민법)", "category": "선택" },
+        { "id": "2교시_상법", "name": "2교시 - 상법 선택 (회계학개론·상법)", "category": "선택" },
+        { "id": "2교시_행정소송법", "name": "2교시 - 행정소송법 선택 (회계학개론·행정소송법)", "category": "선택" }
+      ]
+    },
+    {
+      "id": "공인회계사",
+      "name": "공인회계사 1차",
+      "type": "separated",
+      "tags": ["national_cert", "accounting", "tax"],
+      "organization": {
+        "name": "금융감독원",
+        "url": "https://cpa.fss.or.kr"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공저작물 (금융감독원 공인회계사시험 자료실 공개 기출)",
+        "source": "금융감독원 cpa.fss.or.kr 기출문제 자료실"
+      },
+      "subjects": [
+        { "id": "1교시", "name": "1교시 (경영학·경제원론)", "category": "필수" },
+        { "id": "2교시", "name": "2교시 (기업법·세법개론)", "category": "필수" },
+        { "id": "3교시", "name": "3교시 (회계학)", "category": "필수" }
+      ]
+    },
+    {
+      "id": "공인회계사_2024이전",
+      "name": "공인회계사 1차 (2024년 이전)",
+      "type": "separated",
+      "tags": ["national_cert", "accounting", "tax"],
+      "organization": {
+        "name": "금융감독원",
+        "url": "https://cpa.fss.or.kr"
+      },
+      "downloadable": true,
+      "license": {
+        "type": "공공저작물 (금융감독원 공인회계사시험 자료실 공개 기출)",
+        "source": "금융감독원 cpa.fss.or.kr 기출문제 자료실"
+      },
+      "subjects": [
+        { "id": "1교시", "name": "1교시 (경영학·경제원론)", "category": "필수" },
+        { "id": "2교시", "name": "2교시 (상법·세법개론)", "category": "필수" },
+        { "id": "3교시", "name": "3교시 (회계학)", "category": "필수" }
+      ]
+    }
+  ]
+}

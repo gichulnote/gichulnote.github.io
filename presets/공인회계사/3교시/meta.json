@@ -1,0 +1,77 @@
+{
+  "id": "3교시",
+  "name": "공인회계사 1차 - 3교시",
+  "shortDescription": "공인회계사 1차 3교시 (회계학, 50문항 90분)",
+  "questionCount": 50,
+  "choicesCount": 5,
+  "timeLimit": 90,
+  "examInfo": {
+    "questionCount": 50,
+    "choicesCount": 5,
+    "timeLimit": 90,
+    "fee": 50000,
+    "passingCriteria": "각 과목(영어 제외) 배점의 4할 이상(과락) + 전 과목 배점합계(510점)의 6할(306점) 이상 득점자 중 총득점 고득점순으로 선발예정인원까지 합격",
+    "schedule": [
+      "2월 말"
+    ],
+    "examTime": "3교시 90분",
+    "locations": [
+      "서울",
+      "부산",
+      "대구",
+      "광주",
+      "대전"
+    ],
+    "eligibility": "회계학·세무 12학점, 경영학 6학점, 경제학 3학점, 정보기술 3학점 이상 이수 + 공인영어시험 기준점수 충족",
+    "validityPeriod": "1차 합격자는 당해 및 차년도 2차 시험까지 응시 가능",
+    "note": "회계학은 배점 150점으로 5과목 중 가장 높음 (과락 60점). 영어는 공인어학성적으로 대체."
+  },
+  "organization": {
+    "name": "금융감독원",
+    "url": "https://cpa.fss.or.kr",
+    "examInfoUrl": "https://cpa.fss.or.kr/cpa/main/main.do?menuNo=1200000",
+    "downloadUrl": "https://cpa.fss.or.kr/cpa/bbs/B0000368/list.do?menuNo=1200078",
+    "certificationType": "국가전문자격",
+    "supervisor": "금융위원회"
+  },
+  "sections": [
+    {
+      "name": "회계학",
+      "from": 1,
+      "to": 50,
+      "totalScore": 150,
+      "passingScore": 60,
+      "topics": [
+        "재무회계",
+        "원가관리회계",
+        "정부회계"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "공인회계사 1차 3교시 회계학 기출문제 - 기출노트",
+    "description": "공인회계사 1차 시험 3교시 회계학 기출문제 풀이. 재무회계·원가관리회계·정부회계 객관식 5지선다 50문항. 금융감독원 공식 기출 기반 자동 채점 및 오답노트.",
+    "keywords": [
+      "공인회계사",
+      "CPA",
+      "공인회계사 1차",
+      "회계사 기출문제",
+      "회계학 기출",
+      "재무회계 기출"
+    ],
+    "relatedExams": [
+      "세무사",
+      "감정평가사"
+    ]
+  },
+  "sessions": [
+    {
+      "id": "61",
+      "label": "제61회"
+    },
+    {
+      "id": "60",
+      "label": "제60회"
+    }
+  ]
+}

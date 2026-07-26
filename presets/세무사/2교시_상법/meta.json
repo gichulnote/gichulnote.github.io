@@ -1,0 +1,101 @@
+{
+  "id": "2교시_상법",
+  "name": "세무사 1차 - 2교시 (상법 선택)",
+  "shortDescription": "세무사 1차 2교시 (회계학개론·상법 선택, 80문항 80분)",
+  "questionCount": 80,
+  "choicesCount": 5,
+  "timeLimit": 80,
+  "examInfo": {
+    "questionCount": 80,
+    "choicesCount": 5,
+    "timeLimit": 80,
+    "fee": 30000,
+    "passingCriteria": "각 과목 40점 이상(과락) + 전 과목(영어 제외) 평균 60점 이상 (절대평가)",
+    "schedule": [
+      "4월 말"
+    ],
+    "examTime": "11:20~12:40 (80분)",
+    "locations": [
+      "서울",
+      "부산",
+      "대구",
+      "광주",
+      "대전",
+      "인천"
+    ],
+    "eligibility": "세무사법 제4조 결격사유 미해당자 (학력·경력 제한 없음)",
+    "validityPeriod": "1차 합격자는 합격 후 차년도 2차 시험까지 응시 가능",
+    "note": "선택과목은 민법(총칙)·상법(회사편)·행정소송법(민사소송법 준용규정 포함) 중 1과목"
+  },
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/semu",
+    "examInfoUrl": "https://www.q-net.or.kr/crf005.do?id=crf00503&gSite=L&gId=22",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=22",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=22",
+    "certificationType": "국가전문자격",
+    "supervisor": "기획재정부"
+  },
+  "sections": [
+    {
+      "name": "회계학개론",
+      "from": 1,
+      "to": 40,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "재무회계 (재무제표·자산·부채·자본·수익·비용)",
+        "원가회계 (원가의 분류·배분·표준원가·변동원가)",
+        "관리회계 (CVP 분석·예산·성과평가)"
+      ]
+    },
+    {
+      "name": "상법 (회사편)",
+      "from": 41,
+      "to": 80,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "회사법 총칙",
+        "주식회사 (설립·주식·주주·이사·감사·신주발행·정관변경)",
+        "합명·합자·유한회사",
+        "회사의 합병·분할·해산·청산"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "세무사 1차 2교시 (상법 선택) 기출문제 - 기출노트",
+    "description": "세무사 1차 시험 2교시 회계학개론·상법 선택 기출문제 풀이. 객관식 5지선다 80문항. Q-Net 공식 기출.",
+    "keywords": [
+      "세무사 1차",
+      "세무사 상법",
+      "회계학개론 기출",
+      "상법 회사편 기출",
+      "Q-Net",
+      "세무사 시험"
+    ],
+    "relatedExams": [
+      "세무사_1교시",
+      "세무사_2교시_민법",
+      "세무사_2교시_행정소송법"
+    ]
+  },
+  "sessions": [
+    {
+      "id": "62",
+      "label": "제62회"
+    },
+    {
+      "id": "61",
+      "label": "제61회"
+    },
+    {
+      "id": "60",
+      "label": "제60회"
+    },
+    {
+      "id": "59",
+      "label": "제59회"
+    }
+  ]
+}

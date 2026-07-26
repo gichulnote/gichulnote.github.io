@@ -1,0 +1,100 @@
+{
+  "id": "1교시",
+  "name": "감정평가사 1차 - 1교시",
+  "shortDescription": "감정평가사 1차 1교시 (민법·경제학원론·부동산학원론, 120문항 120분)",
+
+  "questionCount": 120,
+  "choicesCount": 5,
+  "timeLimit": 120,
+
+  "examInfo": {
+    "questionCount": 120,
+    "choicesCount": 5,
+    "timeLimit": 120,
+    "fee": 0,
+    "passingCriteria": "각 과목 40점 이상(과락) + 2교시 포함 전 과목 평균 60점 이상",
+    "schedule": ["4월 초"],
+    "examTime": "09:30~11:30 (120분)",
+    "locations": ["서울", "부산", "대구", "광주", "대전"],
+    "eligibility": "제한 없음 (결격사유 해당자 제외)",
+    "validityPeriod": "1차 합격자는 차회 2차 시험 응시 가능"
+  },
+
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/value",
+    "examInfoUrl": "https://www.q-net.or.kr/site/value",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=60",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=60",
+    "certificationType": "국가전문자격",
+    "supervisor": "국토교통부"
+  },
+
+  "sections": [
+    {
+      "name": "민법 (총칙·물권)",
+      "from": 1,
+      "to": 40,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "민법 총칙 (권리의 주체·객체, 법률행위, 의사표시, 대리, 무효·취소, 조건·기한, 기간, 소멸시효)",
+        "물권법 (물권 일반, 점유권, 소유권, 용익물권, 담보물권)"
+      ]
+    },
+    {
+      "name": "경제학원론",
+      "from": 41,
+      "to": 80,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "미시경제학 (수요·공급, 소비자·생산자이론, 시장구조, 생산요소시장)",
+        "거시경제학 (국민소득, IS-LM, AD-AS, 화폐금융, 실업·인플레이션, 경제성장)",
+        "국제경제학 (국제무역이론, 환율, 국제수지)"
+      ]
+    },
+    {
+      "name": "부동산학원론",
+      "from": 81,
+      "to": 120,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "부동산학 총론 (부동산 개념·특성·분류)",
+        "부동산 경제론 (수요·공급, 경기변동)",
+        "부동산 시장론 (시장 분석, 입지, 지대·지가이론)",
+        "부동산 정책론 (정부 개입, 조세, 금융)",
+        "부동산 투자론 (투자 결정, 수익·위험 분석)",
+        "부동산 감정평가론 개관"
+      ]
+    }
+  ],
+
+  "seo": {
+    "title": "감정평가사 1차 1교시 기출문제 - 기출노트",
+    "description": "감정평가사 1차 시험 1교시 기출문제 풀이. 민법, 경제학원론, 부동산학원론 3과목 객관식 5지선다. Q-Net 공식 기출 기반 자동 채점 및 오답노트.",
+    "keywords": [
+      "감정평가사 1차",
+      "감정평가사 1교시",
+      "민법 기출문제",
+      "경제학원론 기출",
+      "부동산학원론",
+      "Q-Net"
+    ],
+    "relatedExams": ["감정평가사-2교시"]
+  },
+
+  "sessions": [
+    { "id": "36", "label": "제36회" },
+    { "id": "35", "label": "제35회" },
+    { "id": "34", "label": "제34회" },
+    { "id": "33", "label": "제33회" },
+    { "id": "32", "label": "제32회" },
+    { "id": "31", "label": "제31회" },
+    { "id": "30", "label": "제30회" },
+    { "id": "29", "label": "제29회" },
+    { "id": "28", "label": "제28회" },
+    { "id": "27", "label": "제27회" }
+  ]
+}

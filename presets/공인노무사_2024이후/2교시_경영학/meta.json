@@ -1,0 +1,96 @@
+{
+  "id": "2교시_경영학",
+  "name": "공인노무사 1차 (2024년 이후) - 2교시 (경영학개론 선택)",
+  "shortDescription": "공인노무사 1차 2교시 - 경영학개론 선택 (민법·사회보험법·경영학개론, 120문항 120분)",
+
+  "questionCount": 120,
+  "choicesCount": 5,
+  "timeLimit": 120,
+
+  "examInfo": {
+    "questionCount": 120,
+    "choicesCount": 5,
+    "timeLimit": 120,
+    "fee": 30000,
+    "passingCriteria": "각 과목 40점 이상(과락) + 전 과목(영어 제외) 평균 60점 이상. 선택과목은 표준편차 보정 점수 적용.",
+    "schedule": ["5월"],
+    "examTime": "11:20~13:20 (120분)",
+    "locations": ["서울", "부산", "대구", "인천", "광주", "대전"],
+    "eligibility": "공인노무사법 제4조 결격사유 미해당자 (학력·경력 제한 없음)",
+    "validityPeriod": "1차 합격자는 합격 후 차년도 2차 시험까지 응시 가능",
+    "note": "영어는 공인어학성적으로 대체. 선택과목은 경제학원론 또는 경영학개론 중 택1."
+  },
+
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/nomu",
+    "examInfoUrl": "https://www.q-net.or.kr/crf005.do?id=crf00503&gSite=L&gId=05",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=05",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=05",
+    "certificationType": "국가전문자격",
+    "supervisor": "고용노동부"
+  },
+
+  "sections": [
+    {
+      "name": "민법",
+      "from": 1,
+      "to": 40,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "총칙편 (권리주체·객체, 법률행위, 의사표시, 대리, 무효·취소, 조건·기한, 기간, 소멸시효)",
+        "채권편 (채권 총론, 채권 각론)"
+      ]
+    },
+    {
+      "name": "사회보험법",
+      "from": 41,
+      "to": 80,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "사회보장기본법",
+        "고용보험법",
+        "산업재해보상보험법",
+        "국민연금법",
+        "국민건강보험법",
+        "고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률"
+      ]
+    },
+    {
+      "name": "경영학개론",
+      "from": 81,
+      "to": 120,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "경영학 일반 (경영전략, 조직관리, 리더십)",
+        "인사·조직 (인적자원관리, 조직행동)",
+        "마케팅",
+        "생산·운영관리",
+        "재무·회계 일반"
+      ]
+    }
+  ],
+
+  "seo": {
+    "title": "공인노무사 1차 2교시 기출문제 - 경영학개론 선택 (2024년 이후) - 기출노트",
+    "description": "공인노무사 1차 시험 2교시 기출문제 풀이. 민법, 사회보험법, 경영학개론 3과목 객관식 5지선다 120문항 120분. Q-Net 공식 기출 기반.",
+    "keywords": [
+      "공인노무사",
+      "공인노무사 1차",
+      "노무사 2교시",
+      "민법",
+      "사회보험법",
+      "경영학개론",
+      "Q-Net"
+    ],
+    "relatedExams": ["공인노무사_2024이후-1교시", "공인노무사_2024이후-2교시_경제학"]
+  },
+
+  "sessions": [
+    { "id": "34", "label": "제34회" },
+    { "id": "33", "label": "제33회" }
+  ]
+}

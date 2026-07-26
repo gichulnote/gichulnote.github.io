@@ -1,0 +1,65 @@
+{
+  "id": "수학",
+  "name": "경찰대학 1차 시험 수학",
+  "shortDescription": "경찰대학 신입생 선발 1차 시험 수학 영역 (25문항, 80분, 객관식 20 + 주관식 5)",
+
+  "questionCount": 25,
+  "choicesCount": 5,
+  "timeLimit": 80,
+
+  "sections": [
+    {
+      "name": "객관식",
+      "from": 1,
+      "to": 20,
+      "totalScore": 80,
+      "passingScore": 0
+    },
+    {
+      "name": "주관식",
+      "from": 21,
+      "to": 25,
+      "totalScore": 20,
+      "passingScore": 0
+    }
+  ],
+
+  "examInfo": {
+    "passingCriteria": "상대평가 (정원의 6배수 선발, 최하위 동점자 모두 합격)",
+    "schedule": ["7월"],
+    "eligibility": "고등학교 졸업(예정)자 또는 동등 학력자, 만 17세 이상 42세 미만, 대한민국 국적",
+    "validityPeriod": "해당 학년도",
+    "scoring": "100점 만점 (3점 5문항 + 4점 15문항 + 5점 5문항). 21~25번 주관식 단답형 (앱에서 채점 제외, PDF 확인)",
+    "subjectCoverage": "수학 I, 수학 II"
+  },
+
+  "organization": {
+    "name": "경찰대학",
+    "url": "https://police.ac.kr",
+    "downloadUrl": "https://police.ac.kr/police/police/master/62/boardList.do?mdex=police69",
+    "certificationType": "입학시험"
+  },
+
+  "seo": {
+    "title": "경찰대학 1차 시험 수학 기출문제 - 기출노트",
+    "description": "경찰대학 신입생 선발 1차 시험 수학 기출문제. 25문항 80분, 객관식 20문항 + 주관식 단답형 5문항. 2014~2026학년도 13개년 문제 및 정답 제공.",
+    "keywords": ["경찰대학", "경찰대", "경찰대학 기출", "경찰대 수학", "경찰대학 1차 시험", "경찰대 입시"],
+    "relatedExams": ["경찰대학-국어", "경찰대학-영어"]
+  },
+
+  "sessions": [
+    { "id": "2026", "label": "2026학년도", "pdfPath": "pdfs/경찰대학/수학/2026-questions.pdf" },
+    { "id": "2025", "label": "2025학년도", "pdfPath": "pdfs/경찰대학/수학/2025-questions.pdf" },
+    { "id": "2024", "label": "2024학년도", "pdfPath": "pdfs/경찰대학/수학/2024-questions.pdf" },
+    { "id": "2023", "label": "2023학년도", "pdfPath": "pdfs/경찰대학/수학/2023-questions.pdf" },
+    { "id": "2022", "label": "2022학년도", "pdfPath": "pdfs/경찰대학/수학/2022-questions.pdf" },
+    { "id": "2021", "label": "2021학년도", "pdfPath": "pdfs/경찰대학/수학/2021-questions.pdf" },
+    { "id": "2020", "label": "2020학년도", "pdfPath": "pdfs/경찰대학/수학/2020-questions.pdf" },
+    { "id": "2019", "label": "2019학년도", "pdfPath": "pdfs/경찰대학/수학/2019-questions.pdf" },
+    { "id": "2018", "label": "2018학년도", "pdfPath": "pdfs/경찰대학/수학/2018-questions.pdf" },
+    { "id": "2017", "label": "2017학년도", "pdfPath": "pdfs/경찰대학/수학/2017-questions.pdf" },
+    { "id": "2016", "label": "2016학년도", "pdfPath": "pdfs/경찰대학/수학/2016-questions.pdf" },
+    { "id": "2015", "label": "2015학년도", "pdfPath": "pdfs/경찰대학/수학/2015-questions.pdf" },
+    { "id": "2014", "label": "2014학년도", "pdfPath": "pdfs/경찰대학/수학/2014-questions.pdf" }
+  ]
+}

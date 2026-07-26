@@ -1,0 +1,88 @@
+{
+  "id": "2교시",
+  "name": "감정평가사 1차 - 2교시",
+  "shortDescription": "감정평가사 1차 2교시 (감정평가관계법규·회계학, 80문항 80분)",
+
+  "questionCount": 80,
+  "choicesCount": 5,
+  "timeLimit": 80,
+
+  "examInfo": {
+    "questionCount": 80,
+    "choicesCount": 5,
+    "timeLimit": 80,
+    "fee": 0,
+    "passingCriteria": "각 과목 40점 이상(과락) + 1교시 포함 전 과목 평균 60점 이상",
+    "schedule": ["4월 초"],
+    "examTime": "12:00~13:20 (80분)",
+    "locations": ["서울", "부산", "대구", "광주", "대전"],
+    "eligibility": "제한 없음 (결격사유 해당자 제외)",
+    "validityPeriod": "1차 합격자는 차회 2차 시험 응시 가능"
+  },
+
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/value",
+    "examInfoUrl": "https://www.q-net.or.kr/site/value",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=60",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=60",
+    "certificationType": "국가전문자격",
+    "supervisor": "국토교통부"
+  },
+
+  "sections": [
+    {
+      "name": "감정평가관계법규",
+      "from": 1,
+      "to": 40,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "국토의 계획 및 이용에 관한 법률",
+        "감정평가 및 감정평가사에 관한 법률",
+        "부동산 가격공시에 관한 법률",
+        "국유재산법",
+        "도시 및 주거환경정비법",
+        "부동산등기법",
+        "동산·채권 등의 담보에 관한 법률"
+      ]
+    },
+    {
+      "name": "회계학",
+      "from": 41,
+      "to": 80,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "재무회계 (재무보고 개념체계, 재무제표 표시, 자산·부채·자본, 수익·비용)",
+        "원가관리회계 (원가의 분류·배분, 개별·종합·표준원가계산, 변동·전부원가계산, CVP 분석)"
+      ]
+    }
+  ],
+
+  "seo": {
+    "title": "감정평가사 1차 2교시 기출문제 - 기출노트",
+    "description": "감정평가사 1차 시험 2교시 기출문제 풀이. 감정평가관계법규, 회계학 2과목 객관식 5지선다. Q-Net 공식 기출 기반 자동 채점 및 오답노트.",
+    "keywords": [
+      "감정평가사 1차",
+      "감정평가사 2교시",
+      "감정평가관계법규",
+      "감정평가사 회계학",
+      "Q-Net"
+    ],
+    "relatedExams": ["감정평가사-1교시"]
+  },
+
+  "sessions": [
+    { "id": "36", "label": "제36회" },
+    { "id": "35", "label": "제35회" },
+    { "id": "34", "label": "제34회" },
+    { "id": "33", "label": "제33회" },
+    { "id": "32", "label": "제32회" },
+    { "id": "31", "label": "제31회" },
+    { "id": "30", "label": "제30회" },
+    { "id": "29", "label": "제29회" },
+    { "id": "28", "label": "제28회" },
+    { "id": "27", "label": "제27회" }
+  ]
+}

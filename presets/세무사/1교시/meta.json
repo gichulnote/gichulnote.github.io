@@ -1,0 +1,108 @@
+{
+  "id": "1교시",
+  "name": "세무사 1차 - 1교시",
+  "shortDescription": "세무사 1차 1교시 (재정학·세법학개론, 80문항 80분)",
+  "questionCount": 80,
+  "choicesCount": 5,
+  "timeLimit": 80,
+  "examInfo": {
+    "questionCount": 80,
+    "choicesCount": 5,
+    "timeLimit": 80,
+    "fee": 30000,
+    "passingCriteria": "각 과목 40점 이상(과락) + 전 과목(영어 제외) 평균 60점 이상 (절대평가)",
+    "schedule": [
+      "4월 말"
+    ],
+    "examTime": "09:30~10:50 (80분)",
+    "locations": [
+      "서울",
+      "부산",
+      "대구",
+      "광주",
+      "대전",
+      "인천"
+    ],
+    "eligibility": "세무사법 제4조 결격사유 미해당자 (학력·경력 제한 없음)",
+    "validityPeriod": "1차 합격자는 합격 후 차년도 2차 시험까지 응시 가능",
+    "note": "영어는 공인어학성적으로 대체 (TOEIC·TOEFL·TEPS·G-TELP·FLEX 중 택1, 1차 시험일 기준 5년 이내 취득분)"
+  },
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/semu",
+    "examInfoUrl": "https://www.q-net.or.kr/crf005.do?id=crf00503&gSite=L&gId=22",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=22",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=22",
+    "certificationType": "국가전문자격",
+    "supervisor": "기획재정부"
+  },
+  "sections": [
+    {
+      "name": "재정학",
+      "from": 1,
+      "to": 40,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "재정과 재정학",
+        "공공재 이론",
+        "외부효과",
+        "조세이론 (조세귀착·초과부담·최적조세)",
+        "공공선택론",
+        "재정정책과 거시경제",
+        "지방재정"
+      ]
+    },
+    {
+      "name": "세법학개론",
+      "from": 41,
+      "to": 80,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "국세기본법",
+        "국세징수법",
+        "조세범처벌법",
+        "소득세법",
+        "법인세법",
+        "부가가치세법",
+        "상속세 및 증여세법",
+        "조세특례제한법"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "세무사 1차 1교시 기출문제 - 기출노트",
+    "description": "세무사 1차 시험 1교시 기출문제 풀이. 재정학·세법학개론 2과목 객관식 5지선다 80문항. Q-Net 공식 기출 기반 자동 채점 및 오답노트.",
+    "keywords": [
+      "세무사 1차",
+      "세무사 기출문제",
+      "재정학 기출",
+      "세법학개론 기출",
+      "Q-Net",
+      "세무사 시험"
+    ],
+    "relatedExams": [
+      "감정평가사",
+      "공인노무사_2024이후"
+    ]
+  },
+  "sessions": [
+    {
+      "id": "62",
+      "label": "제62회"
+    },
+    {
+      "id": "61",
+      "label": "제61회"
+    },
+    {
+      "id": "60",
+      "label": "제60회"
+    },
+    {
+      "id": "59",
+      "label": "제59회"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "영어",
+  "name": "9급 국가직 영어",
+  "shortDescription": "국가공무원 9급 공개경쟁채용시험 영어 과목",
+  "questionCount": 20,
+  "choicesCount": 4,
+  "timeLimit": 20,
+  "sections": [
+    {
+      "name": "영어",
+      "from": 1,
+      "to": 20,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": ["어휘", "문법", "독해", "생활영어"]
+    }
+  ],
+  "sessions": [
+    { "id": "2025", "label": "2025년", "type": "나", "pdfPath": "pdfs/9급국가직/영어/2025-나-questions.pdf" },
+    { "id": "2024", "label": "2024년", "type": "가", "pdfPath": "pdfs/9급국가직/영어/2024-가-questions.pdf" },
+    { "id": "2023", "label": "2023년", "type": "나", "pdfPath": "pdfs/9급국가직/영어/2023-나-questions.pdf" },
+    { "id": "2022", "label": "2022년", "type": "가", "pdfPath": "pdfs/9급국가직/영어/2022-가-questions.pdf" },
+    { "id": "2021", "label": "2021년", "type": "나", "pdfPath": "pdfs/9급국가직/영어/2021-나-questions.pdf" },
+    { "id": "2020", "label": "2020년", "type": "가", "pdfPath": "pdfs/9급국가직/영어/2020-가-questions.pdf" },
+    { "id": "2019", "label": "2019년", "type": "나", "pdfPath": "pdfs/9급국가직/영어/2019-나-questions.pdf" },
+    { "id": "2018", "label": "2018년", "type": "가", "pdfPath": "pdfs/9급국가직/영어/2018-가-questions.pdf" },
+    { "id": "2017", "label": "2017년", "type": "나", "pdfPath": "pdfs/9급국가직/영어/2017-나-questions.pdf" },
+    { "id": "2016", "label": "2016년", "type": "2", "pdfPath": "pdfs/9급국가직/영어/2016-2-questions.pdf" },
+    { "id": "2015", "label": "2015년", "type": "사", "pdfPath": "pdfs/9급국가직/영어/2015-사-questions.pdf" },
+    { "id": "2014", "label": "2014년", "type": "S", "pdfPath": "pdfs/9급국가직/영어/2014-S-questions.pdf" },
+    { "id": "2013", "label": "2013년", "type": "인", "pdfPath": "pdfs/9급국가직/영어/2013-인-questions.pdf" },
+    { "id": "2012", "label": "2012년", "type": "인", "pdfPath": "pdfs/9급국가직/영어/2012-인-questions.pdf" },
+    { "id": "2011", "label": "2011년", "type": "인", "pdfPath": "pdfs/9급국가직/영어/2011-인-questions.pdf" },
+    { "id": "2010", "label": "2010년", "type": "고", "pdfPath": "pdfs/9급국가직/영어/2010-고-questions.pdf" },
+    { "id": "2009", "label": "2009년", "type": "녹", "pdfPath": "pdfs/9급국가직/영어/2009-녹-questions.pdf" },
+    { "id": "2008", "label": "2008년", "type": "안", "pdfPath": "pdfs/9급국가직/영어/2008-안-questions.pdf" },
+    { "id": "2007", "label": "2007년", "type": "국", "pdfPath": "pdfs/9급국가직/영어/2007-국-questions.pdf" }
+  ],
+  "examInfo": {
+    "questionCount": 20,
+    "choicesCount": 4,
+    "timeLimit": 20,
+    "passingCriteria": "과목당 40점 이상, 전 과목 평균 60점 이상",
+    "schedule": ["3월~4월"],
+    "eligibility": "18세 이상, 학력 제한 없음"
+  },
+  "organization": {
+    "name": "인사혁신처",
+    "url": "https://gongmuwon.gosi.kr",
+    "downloadUrl": "https://gongmuwon.gosi.kr/oprut/EvmArChcPrblmCransTestInqLst.do",
+    "certificationType": "공무원 임용시험"
+  },
+  "seo": {
+    "title": "9급 공무원 영어 기출문제 - 기출노트",
+    "description": "9급 국가직 공무원 영어 기출문제. 인사혁신처 주관 국가공무원 공개경쟁채용 기출문제와 정답을 기출노트 앱에서 풀어보세요. PDF 문제풀이, 자동채점, 오답노트 제공.",
+    "keywords": ["9급 공무원", "9급 국가직", "공무원 영어", "공무원 기출문제", "9급 영어 기출", "공무원 시험"],
+    "relatedExams": ["9급국가직-국어", "9급국가직-한국사"]
+  }
+}

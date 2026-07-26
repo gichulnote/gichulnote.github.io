@@ -1,0 +1,102 @@
+{
+  "id": "경제학",
+  "name": "공인노무사 1차 (2023년 이전) - 경제학원론 선택",
+  "shortDescription": "공인노무사 1차 (구 제도) - 경제학원론 선택 (5과목 125문항 125분, 단일 교시)",
+
+  "questionCount": 125,
+  "choicesCount": 5,
+  "timeLimit": 125,
+
+  "examInfo": {
+    "questionCount": 125,
+    "choicesCount": 5,
+    "timeLimit": 125,
+    "fee": 30000,
+    "passingCriteria": "각 과목 40점 이상(과락) + 전 과목(영어 제외) 평균 60점 이상. 선택과목은 표준편차 보정 점수 적용.",
+    "schedule": ["5월"],
+    "examTime": "09:30~11:35 (125분, 단일 교시)",
+    "locations": ["서울", "부산", "대구", "인천", "광주", "대전"],
+    "eligibility": "공인노무사법 제4조 결격사유 미해당자 (학력·경력 제한 없음)",
+    "validityPeriod": "1차 합격자는 합격 후 차년도 2차 시험까지 응시 가능",
+    "note": "2023년(제32회)까지의 구 제도. 2024년 제33회부터 2교시 분리 및 과목당 40문항으로 변경됨. 영어는 공인어학성적으로 대체."
+  },
+
+  "organization": {
+    "name": "한국산업인력공단",
+    "url": "https://www.q-net.or.kr/site/nomu",
+    "examInfoUrl": "https://www.q-net.or.kr/crf005.do?id=crf00503&gSite=L&gId=05",
+    "scheduleUrl": "https://www.q-net.or.kr/man001.do?id=man00105&gSite=L&gId=05",
+    "downloadUrl": "https://www.q-net.or.kr/cst003.do?id=cst00309&gSite=L&gId=05",
+    "certificationType": "국가전문자격",
+    "supervisor": "고용노동부"
+  },
+
+  "sections": [
+    {
+      "name": "노동법(1)",
+      "from": 1,
+      "to": 25,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "근로기준법, 파견법, 기간제법, 산안법, 직안법, 남녀고용평등법, 최저임금법, 퇴직급여법, 임금채권보장법, 근복법, 외국인근로자법"
+      ]
+    },
+    {
+      "name": "노동법(2)",
+      "from": 26,
+      "to": 50,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "노조법, 근로자참여법, 노동위원회법, 공무원노조법, 교원노조법"
+      ]
+    },
+    {
+      "name": "민법",
+      "from": 51,
+      "to": 75,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "총칙편, 채권편"
+      ]
+    },
+    {
+      "name": "사회보험법",
+      "from": 76,
+      "to": 100,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "사회보장기본법, 고용보험법, 산재보험법, 국민연금법, 건강보험법, 보험료징수법"
+      ]
+    },
+    {
+      "name": "경제학원론",
+      "from": 101,
+      "to": 125,
+      "totalScore": 100,
+      "passingScore": 40,
+      "topics": [
+        "미시경제학, 거시경제학, 국제경제학"
+      ]
+    }
+  ],
+
+  "seo": {
+    "title": "공인노무사 1차 기출문제 - 경제학 선택 (2023년 이전) - 기출노트",
+    "description": "2023년 이전 공인노무사 1차 기출문제 풀이. 노동법1·노동법2·민법·사회보험법·경제학원론 5과목 125문항 125분. Q-Net 공식 기출 기반.",
+    "keywords": [
+      "공인노무사",
+      "공인노무사 1차",
+      "노무사 기출",
+      "노동법",
+      "경제학원론",
+      "Q-Net"
+    ],
+    "relatedExams": ["공인노무사_2023이전-경영학", "공인노무사_2024이후-1교시"]
+  },
+
+  "sessions": []
+}
